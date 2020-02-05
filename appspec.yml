@@ -1,0 +1,18 @@
+version: 0.0
+os: linux
+files:
+- source: www.war
+  destination: /var/lib/tomcat7/webapps
+hooks:
+
+  ApplicationStop:
+  - location: stop_application
+    timeout: 300
+
+  BeforeInstall:
+  - location: uninstall_war_file
+    timeout: 300
+
+  ApplicationStart:
+  - location: start_application
+    timeout: 300
