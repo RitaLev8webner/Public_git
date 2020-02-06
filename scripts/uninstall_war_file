@@ -1,2 +1,2 @@
-rm -rf /var/lib/tomcat7/webapps/www.war
-rm -rf /var/lib/tomcat7/webapps/www
+rm -rf /var/lib/tomcat8/webapps/www.war
+rm -rf /var/lib/tomcat8/webapps/www
