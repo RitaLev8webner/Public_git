@@ -1,1 +1,1 @@
-curl –user tomcat:tomcat http://ec2-184-72-195-118.compute-1.amazonaws.com:8080/manager/text/stop?path=/www
+curl –user tomcat1:password http://ec2-54-160-214-19.compute-1.amazonaws.com:8080/manager/text/stop?path=/www
